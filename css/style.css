@@ -1,0 +1,83 @@
+/*1- Estilos gerais para a página*/
+
+/*Reset Css básico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+img,video{
+    max-width:100%;
+    height: auto;
+}
+/*2- Espaço utilizado paara criar nosso card*/
+
+body{
+    font-family: 'Georgia', serif; /* uma fonte um pouco mais elegante para receitas*/
+    background-color: #f5f5f5; /* um tom mais suave de cinza*/
+    color:#333;/*cor de texto para boa legibilidade*/
+
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+/*3- Estilizar o card da receita*/
+
+.recipe-card{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;/*Bordas arredondadas em 15 pixels*/
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+    /*Esta propriedade "corta" qualquer cnteúdo filho (no caso nossa imagem), que tente "vazar" dos cantos arredondados*/
+    overflow: hidden;
+
+}
+
+/*4- Estilizar a imagem da receita - Nosso foco principal*/
+.recipe-image{
+    width: 100%;
+    display: block;
+}
+
+
+
+/*5- Estilizar o conteudo da receita (titulo,ingrediente, instruções)*/
+
+.recipe-content{
+    padding: 25px
+}
+/* 6- Estilizar titulo da receita */
+.recipe-title{
+    font-size: 1.5rem; /*isso corresponde a 16 pixels*/
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #27ae60 ;
+}
+
+/* 7- Estilizar seção de descrição */
+.recipe-description{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom:20px;
+}
