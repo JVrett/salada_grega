@@ -1,4 +1,4 @@
-# Projeto 02 (Trilha Simplificada) - Card de Receita Simples
+# Projeto 01 (Trilha Simplificada) - Card de Receita Simples
  
 Este projeto dá continuidade aos fundamentos de front-end, introduzindo o uso de imagens dentro de um layout estruturado.
  
